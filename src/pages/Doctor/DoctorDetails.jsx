@@ -1,12 +1,13 @@
 import { useState } from "react";
-// import doctorImg from "../../asserts/images/doctor-img02.png";
 import starIcon from "../../asserts/images/Star.png";
 import DoctorAbout from "./DoctorAbout";
 import Feedback from "./Feedback";
 import SidePanel from "./SidePanel";
 import { doctors } from "./../../asserts/data/doctorData";
+import { useParams } from "react-router-dom";
 
-const DoctorDetails = ({ id }) => {
+const DoctorDetails = () => {
+   const { id } = useParams();
    const [tab, setTab] = useState("about");
 
    const doc = doctors.filter((doc) => doc.id === id).map((doctor) => doctor);
