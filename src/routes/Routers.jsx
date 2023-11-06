@@ -9,10 +9,6 @@ import DoctorsDetails from "../pages/Doctor/DoctorDetails";
 import { Routes, Route } from "react-router-dom";
 
 const Routers = () => {
-   // const [doc] = doctors
-   //    .filter((doc) => doc.id === 3)
-   //    .map((doctor) => doctor.id);
-
    return (
       <div>
          <Routes>
