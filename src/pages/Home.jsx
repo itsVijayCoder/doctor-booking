@@ -73,12 +73,12 @@ const Home = () => {
 
                   {/* =====hero-Image===== */}
 
-                  <div className='flex gap-[30px] justify-start  '>
+                  <div className='flex gap-[30px] items-center '>
                      <div>
                         <img
                            src={heroImg01}
                            alt='HeroImage01'
-                           className='w-full'
+                           className='w-full rounded-full'
                         />
                      </div>
 
@@ -86,13 +86,13 @@ const Home = () => {
                         <img
                            src={heroImg02}
                            alt='HeroImage02'
-                           className='w-full mb-[30px]'
+                           className='w-full mb-[30px] rounded-t-full'
                         />
 
                         <img
                            src={heroImg03}
                            alt='HeroImage03'
-                           className='w-full mb-[30px]'
+                           className='w-full mb-[30px] rounded-b-full'
                         />
                      </div>
                   </div>
