@@ -10,16 +10,6 @@ body {
    font-family: "Poppins", sans-serif;
 }
 
-/* .custom-gradient {
-   background: linear-gradient(
-      to right bottom,
-      white 5%,
-      rgb(118, 244, 202) 20%,
-      white 30%,
-      rgb(244, 128, 128) 70%
-   );
-} */
-
 .swiper-pagination-bullet {
    width: 12px !important;
    height: 12px !important;

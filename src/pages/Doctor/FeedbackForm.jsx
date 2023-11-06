@@ -12,7 +12,7 @@ const FeedbackForm = () => {
 
    return (
       <div>
-         <form action=''>
+         <form action='' onSubmit={handleReviewSubmit}>
             <div>
                <h3 className='text-[16px] leading-5 font-semibold text-textColor mb-4 mt-0'>
                   How would you rate the overall experience?*

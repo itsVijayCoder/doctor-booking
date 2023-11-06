@@ -13,7 +13,6 @@ const About = () => {
                   <div className='relative flex w-[80%] mx-auto md:w-1/2 md:mx-auto xl:w-[770px] xl:justify-start z-10 order-2 lg:order-1'>
                      <img src={aboutImg} className='md:rounded-[20%]' alt='' />
 
-                     {/* <div className='absolute bottom-2 lg:bottom-[180px] xl:bottom-0 z-20  md:w-[400px] right-[-20%] md:right-[-30%] lg:right-[-42%] xl:right-[20%]  '> */}
                      <div className='absolute flex w-[250px] top-[65%] right-[-20%] md:w-[400px] md:left-[160px] md:bottom-0 lg:left-[50%]'>
                         <img src={aboutCardImg} alt='' />
                      </div>
