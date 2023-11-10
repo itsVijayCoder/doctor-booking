@@ -24,11 +24,11 @@ const ServicesCard = ({ item, index }) => {
 
                <span
                   className='w-[40px] h-[40px] text-[18px] leading-7 flex items-center justify-center font-[600] '
-                  style={{
-                     background: `${bgColor}`,
-                     color: `${textColor}`,
-                     borderRadius: "6px 0 0 6px",
-                  }}
+                  // style={{
+                  //    background: `${bgColor}`,
+                  //    color: `${textColor}`,
+                  //    borderRadius: "6px 0 0 6px",
+                  // }}
                >
                   {index + 1}
                </span>
