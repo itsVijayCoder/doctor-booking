@@ -1,7 +1,7 @@
 {
    "name": "mediclient-frontend",
    "version": "0.1.0",
-   "homepage": "https://tomvj1258.github.io/doctor-booking",
+   "homepage": "https://itsvijaycoder.github.io/doctor-booking/",
    "private": true,
    "dependencies": {
       "react": "^18.2.0",
